@@ -23,6 +23,7 @@
 /* Begin PBXBuildFile section */
 		5A4EAF3D282679A700BE3051 /* UIViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4EAF3C282679A700BE3051 /* UIViewBase.swift */; };
 		5A4EAF4628267CCD00BE3051 /* UKTapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4EAF4528267CCD00BE3051 /* UKTapGestureRecognizer.swift */; };
+		5A8511842828257900F6B18A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8511832828257900F6B18A /* UIViewExtension.swift */; };
 		OBJ_31 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_42 /* UIKitExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* UIKitExtensionsTests.swift */; };
 		OBJ_44 /* UIKitExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "uikitextensions::UIKitExtensions::Product" /* UIKitExtensions.framework */; };
@@ -48,6 +49,7 @@
 /* Begin PBXFileReference section */
 		5A4EAF3C282679A700BE3051 /* UIViewBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewBase.swift; sourceTree = "<group>"; };
 		5A4EAF4528267CCD00BE3051 /* UKTapGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UKTapGestureRecognizer.swift; sourceTree = "<group>"; };
+		5A8511832828257900F6B18A /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		OBJ_12 /* UIKitExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtensionsTests.swift; sourceTree = "<group>"; };
 		OBJ_16 /* UIKitExtensions1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UIKitExtensions1; sourceTree = SOURCE_ROOT; };
 		OBJ_17 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 		OBJ_8 /* UIKitExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				5A8511832828257900F6B18A /* UIViewExtension.swift */,
 			);
 			name = UIKitExtensions;
 			path = Sources/UIKitExtensions;
@@ -230,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				5A8511842828257900F6B18A /* UIViewExtension.swift in Sources */,
 				5A4EAF4628267CCD00BE3051 /* UKTapGestureRecognizer.swift in Sources */,
 				5A4EAF3D282679A700BE3051 /* UIViewBase.swift in Sources */,
 			);
