@@ -21,9 +21,9 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		5A4EAF3D282679A700BE3051 /* UIViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4EAF3C282679A700BE3051 /* UIViewBase.swift */; };
-		5A4EAF4628267CCD00BE3051 /* UKTapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4EAF4528267CCD00BE3051 /* UKTapGestureRecognizer.swift */; };
 		5A8511842828257900F6B18A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8511832828257900F6B18A /* UIViewExtension.swift */; };
+		5A8513042829A3ED00F6B18A /* UIViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8513022829A3ED00F6B18A /* UIViewBase.swift */; };
+		5A8513052829A3ED00F6B18A /* UKTapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8513032829A3ED00F6B18A /* UKTapGestureRecognizer.swift */; };
 		OBJ_31 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_42 /* UIKitExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* UIKitExtensionsTests.swift */; };
 		OBJ_44 /* UIKitExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "uikitextensions::UIKitExtensions::Product" /* UIKitExtensions.framework */; };
@@ -47,9 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5A4EAF3C282679A700BE3051 /* UIViewBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewBase.swift; sourceTree = "<group>"; };
-		5A4EAF4528267CCD00BE3051 /* UKTapGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UKTapGestureRecognizer.swift; sourceTree = "<group>"; };
 		5A8511832828257900F6B18A /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		5A8513022829A3ED00F6B18A /* UIViewBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewBase.swift; sourceTree = "<group>"; };
+		5A8513032829A3ED00F6B18A /* UKTapGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UKTapGestureRecognizer.swift; sourceTree = "<group>"; };
 		OBJ_12 /* UIKitExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtensionsTests.swift; sourceTree = "<group>"; };
 		OBJ_16 /* UIKitExtensions1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UIKitExtensions1; sourceTree = SOURCE_ROOT; };
 		OBJ_17 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -78,13 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5A4EAF4428267C7500BE3051 /* BaseClasses */ = {
+		5A8513012829A3ED00F6B18A /* BaseClasses */ = {
 			isa = PBXGroup;
 			children = (
-				5A4EAF3C282679A700BE3051 /* UIViewBase.swift */,
-				5A4EAF4528267CCD00BE3051 /* UKTapGestureRecognizer.swift */,
+				5A8513022829A3ED00F6B18A /* UIViewBase.swift */,
+				5A8513032829A3ED00F6B18A /* UKTapGestureRecognizer.swift */,
 			);
-			path = BaseClasses;
+			name = BaseClasses;
+			path = Sources/BaseClasses;
 			sourceTree = "<group>";
 		};
 		OBJ_10 /* Tests */ = {
@@ -129,7 +130,7 @@
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				5A4EAF4428267C7500BE3051 /* BaseClasses */,
+				5A8513012829A3ED00F6B18A /* BaseClasses */,
 				OBJ_8 /* UIKitExtensions */,
 			);
 			name = Sources;
@@ -234,8 +235,8 @@
 			buildActionMask = 0;
 			files = (
 				5A8511842828257900F6B18A /* UIViewExtension.swift in Sources */,
-				5A4EAF4628267CCD00BE3051 /* UKTapGestureRecognizer.swift in Sources */,
-				5A4EAF3D282679A700BE3051 /* UIViewBase.swift in Sources */,
+				5A8513052829A3ED00F6B18A /* UKTapGestureRecognizer.swift in Sources */,
+				5A8513042829A3ED00F6B18A /* UIViewBase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
