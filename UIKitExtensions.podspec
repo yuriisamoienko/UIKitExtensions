@@ -8,4 +8,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/yuriisamoienko/UIKitExtensions.git' }
   spec.source_files = 'Sources/*'
   spec.framework    = 'UIKitExtensions'
+
+  spec.ios.deployment_target = '11.0'
+  spec.swift_version = '5.6'
 end
