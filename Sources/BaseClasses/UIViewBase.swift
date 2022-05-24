@@ -22,4 +22,8 @@ open class UIViewBase: UIView {
         super.init(coder: coder)
         postInit()
     }
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self) // to avoid future null exeption crashes
+    }
 }
